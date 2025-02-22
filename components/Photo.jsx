@@ -2,7 +2,7 @@
 
 import { motion, px } from "framer-motion"
 import Image from "next/image"
-import pic from '../public/assets/photo1.png'
+import pic from '../public/assets/photo1.jpg'
 
 const Photo = () => {
   return (
