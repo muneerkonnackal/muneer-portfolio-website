@@ -2,6 +2,7 @@
 
 import { motion, px } from "framer-motion"
 import Image from "next/image"
+import pic from '../public/assets/photo1.png'
 
 const Photo = () => {
   return (
@@ -21,7 +22,7 @@ const Photo = () => {
                 transition: {delay: 2.4, duration:0.4,ease:"easeInOut"},
             }}
              className="mt-1 ml-1 w-[290px] h-[290px] xl:w-[490px] xl:h-[488px] xl:ml-2 xl:mt-2 mix-blend-lighten absolute">
-                <Image src="/assets/photo1.jpg"
+                <Image src={pic}
                 priority
                 quality={100}
                 fill
