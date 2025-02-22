@@ -25,7 +25,7 @@ const Home = () => {
             <Button variant="outline"
              size="lg" 
              className="uppercase flex items-center gap-2">
-              <a href="./Resume.pdf" download='resume'><span>Download CV</span></a>
+              <a href="./muneerfrontenddev.pdf" download='resume'><span>Download CV</span></a>
               <FiDownload />
             </Button>
             <div className="mb-8 xl:mb-0">
