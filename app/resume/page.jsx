@@ -60,9 +60,14 @@ const experience = {
   description:"Dedicated and skilled MERN Full Stack developer. Proven expertise in developing, designing, and implementing web applications.",
   items: [
     {
+      company: "Talrop",
+      position:"Frontend Developer Intern",
+      duration:"Dec 2024-Present"
+    },
+    {
       company: "Luminar Technolab",
       position:"Full Stack Developer Intern",
-      duration:"2023-Present"
+      duration:"July 2023-Dec 2024"
     }
   ]
 }
